@@ -32,7 +32,7 @@ export const Button = styled.button`
     position: relative;
     height: 50px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: inline-flex;
     padding: 10px 28px;
     font-weight: 700;
