@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, getContacts } from '../../redux/contactSlice';
+import { addContact } from '../../redux/contactSlice';
+import { getContacts } from '../../redux/selectors';
 
 import { Form, Label, Input, Button } from './ContacForm.styled';
 
