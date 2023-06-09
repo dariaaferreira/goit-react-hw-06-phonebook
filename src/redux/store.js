@@ -15,6 +15,7 @@ import {
 const persistConfig = {
   key: 'root',
   storage,
+  blacklist: ['filter'], 
 };
 
 const rootReducer = combineReducers({
